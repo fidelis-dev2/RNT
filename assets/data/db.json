@@ -1,0 +1,368 @@
+{
+  "app": {
+    "name": "RNT",
+    "fullName": "Rental & Property Management System",
+    "company": "Mwitongo Butiama Lodge",
+    "admin": "Admin User",
+    "role": "System Administrator"
+  },
+  "images": {
+    "login": "assets/images/property-hero.svg",
+    "hero": "assets/images/property-hero.svg",
+    "propertyHero": "assets/images/property-hero.svg",
+    "tenantHero": "assets/images/property-hero.svg",
+    "paymentHero": "assets/images/property-hero.svg",
+    "budgetHero": "assets/images/property-hero.svg",
+    "revenueHero": "assets/images/property-hero.svg",
+    "adminHero": "assets/images/property-hero.svg"
+  },
+  "modules": [
+    {
+      "id": "properties",
+      "name": "Property Management",
+      "short": "Properties",
+      "icon": "fa-building",
+      "color": "pink",
+      "image": "assets/images/property-hero.svg",
+      "description": "Manage properties, units, features and maintenance."
+    },
+    {
+      "id": "tenants",
+      "name": "Tenant Management",
+      "short": "Tenants",
+      "icon": "fa-users",
+      "color": "blue",
+      "image": "assets/images/property-hero.svg",
+      "description": "Manage tenants, leases and related information."
+    },
+    {
+      "id": "payment",
+      "name": "Payment Management",
+      "short": "Payments",
+      "icon": "fa-money-bill-transfer",
+      "color": "green",
+      "image": "assets/images/property-hero.svg",
+      "description": "Track rent collections, payments and balances."
+    },
+    {
+      "id": "revenue",
+      "name": "Revenue Management",
+      "short": "Revenue",
+      "icon": "fa-chart-line",
+      "color": "orange",
+      "image": "assets/images/property-hero.svg",
+      "description": "Monitor income, revenue streams and performance."
+    },
+    {
+      "id": "budget",
+      "name": "Budget Management",
+      "short": "Budget",
+      "icon": "fa-chart-pie",
+      "color": "purple",
+      "image": "assets/images/property-hero.svg",
+      "description": "Plan budgets, track expenses and control costs."
+    },
+    {
+      "id": "admin",
+      "name": "System Administration",
+      "short": "Settings",
+      "icon": "fa-gear",
+      "color": "teal",
+      "image": "assets/images/property-hero.svg",
+      "description": "Manage users, roles, settings and configurations."
+    }
+  ],
+  "links": {
+    "properties": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "properties-list",
+        "name": "Properties",
+        "icon": "fa-building"
+      },
+      {
+        "id": "register-property",
+        "name": "Register Property",
+        "icon": "fa-square-plus"
+      },
+      {
+        "id": "units",
+        "name": "Units",
+        "icon": "fa-border-all"
+      },
+      {
+        "id": "maintenance",
+        "name": "Maintenance",
+        "icon": "fa-screwdriver-wrench"
+      },
+      {
+        "id": "reports",
+        "name": "Reports",
+        "icon": "fa-chart-column"
+      }
+    ],
+    "tenants": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "tenants-list",
+        "name": "Tenants",
+        "icon": "fa-users"
+      },
+      {
+        "id": "register-tenant",
+        "name": "Register Tenant",
+        "icon": "fa-user-plus"
+      },
+      {
+        "id": "leases",
+        "name": "Leases",
+        "icon": "fa-file-contract"
+      },
+      {
+        "id": "tenant-reports",
+        "name": "Tenant Reports",
+        "icon": "fa-chart-simple"
+      }
+    ],
+    "payment": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "payments-list",
+        "name": "Payments",
+        "icon": "fa-money-check-dollar"
+      },
+      {
+        "id": "receive-payment",
+        "name": "Receive Payment",
+        "icon": "fa-hand-holding-dollar"
+      },
+      {
+        "id": "arrears",
+        "name": "Arrears",
+        "icon": "fa-triangle-exclamation"
+      },
+      {
+        "id": "payment-reports",
+        "name": "Payment Reports",
+        "icon": "fa-receipt"
+      }
+    ],
+    "revenue": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "income",
+        "name": "Income",
+        "icon": "fa-sack-dollar"
+      },
+      {
+        "id": "revenue-report",
+        "name": "Revenue Report",
+        "icon": "fa-chart-line"
+      },
+      {
+        "id": "forecast",
+        "name": "Forecast",
+        "icon": "fa-arrow-trend-up"
+      }
+    ],
+    "budget": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "budget-overview",
+        "name": "Budget Overview",
+        "icon": "fa-chart-pie"
+      },
+      {
+        "id": "register-expense",
+        "name": "Register Expense",
+        "icon": "fa-file-circle-plus"
+      },
+      {
+        "id": "expenses",
+        "name": "Expenses",
+        "icon": "fa-calculator"
+      },
+      {
+        "id": "budget-report",
+        "name": "Budget Report",
+        "icon": "fa-file-invoice"
+      }
+    ],
+    "admin": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "users",
+        "name": "Users",
+        "icon": "fa-user-shield"
+      },
+      {
+        "id": "roles",
+        "name": "Roles",
+        "icon": "fa-key"
+      },
+      {
+        "id": "settings",
+        "name": "Settings",
+        "icon": "fa-sliders"
+      },
+      {
+        "id": "audit",
+        "name": "Audit Logs",
+        "icon": "fa-clock-rotate-left"
+      }
+    ]
+  },
+  "properties": [
+    {
+      "id": 1,
+      "name": "Sunset Apartments",
+      "location": "Mikocheni, Dar es Salaam",
+      "units": 24,
+      "status": "Active",
+      "image": "assets/images/property-hero.svg",
+      "image_db_path": "uploads/properties/1/main.jpg",
+      "image_fallback": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=84"
+    },
+    {
+      "id": 2,
+      "name": "Ocean View Residences",
+      "location": "Masaki, Dar es Salaam",
+      "units": 18,
+      "status": "Active",
+      "image": "assets/images/property-hero.svg",
+      "image_db_path": "uploads/properties/2/main.jpg",
+      "image_fallback": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=84"
+    },
+    {
+      "id": 3,
+      "name": "Green Park Estate",
+      "location": "Mbezi Beach, Dar es Salaam",
+      "units": 32,
+      "status": "Active",
+      "image": "assets/images/property-hero.svg",
+      "image_db_path": "uploads/properties/3/main.jpg",
+      "image_fallback": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=84"
+    },
+    {
+      "id": 4,
+      "name": "Palm Village",
+      "location": "Kigamboni, Dar es Salaam",
+      "units": 16,
+      "status": "Active",
+      "image": "assets/images/property-hero.svg",
+      "image_db_path": "uploads/properties/4/main.jpg",
+      "image_fallback": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=84"
+    }
+  ],
+  "tenants": [
+    {
+      "id": 1,
+      "name": "Asha Mrema",
+      "phone": "+255 712 444 111",
+      "property": "Sunset Apartments",
+      "unit": "A-12",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Joseph Kileo",
+      "phone": "+255 754 222 900",
+      "property": "Ocean View Residences",
+      "unit": "B-04",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Grace Peter",
+      "phone": "+255 765 800 120",
+      "property": "Green Park Estate",
+      "unit": "C-08",
+      "status": "Due"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-001",
+      "tenant": "Asha Mrema",
+      "amount": 1200000,
+      "method": "Bank",
+      "date": "2026-07-01",
+      "status": "Paid"
+    },
+    {
+      "id": "PAY-002",
+      "tenant": "Joseph Kileo",
+      "amount": 850000,
+      "method": "Mobile Money",
+      "date": "2026-07-02",
+      "status": "Paid"
+    },
+    {
+      "id": "PAY-003",
+      "tenant": "Grace Peter",
+      "amount": 500000,
+      "method": "Cash",
+      "date": "2026-07-04",
+      "status": "Partial"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "EXP-001",
+      "name": "Security Service",
+      "amount": 650000,
+      "category": "Operations",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "EXP-002",
+      "name": "Water Maintenance",
+      "amount": 350000,
+      "category": "Maintenance",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "EXP-003",
+      "name": "Cleaning Supplies",
+      "amount": 180000,
+      "category": "Consumables",
+      "date": "2026-07-05"
+    }
+  ],
+  "stats": {
+    "properties": 24,
+    "units": 156,
+    "tenants": 118,
+    "vacant": 38,
+    "occupancy": 75.6,
+    "rent": 28400000,
+    "income": 18700000,
+    "partial": 4500000,
+    "pending": 3200000,
+    "overdue": 2000000
+  }
+}
