@@ -1,0 +1,38 @@
+RNT ONLINE IMAGES & ICONS - EDIT GUIDE
+=====================================
+
+1. ONLINE ICONS
+All HTML files load Font Awesome from this CDN:
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+
+Example icons:
+<i class="fa-solid fa-house"></i>
+<i class="fa-solid fa-users"></i>
+<i class="fa-solid fa-user-plus"></i>
+<i class="fa-solid fa-money-bill-transfer"></i>
+<i class="fa-solid fa-chart-line"></i>
+<i class="fa-solid fa-gear"></i>
+
+Font Awesome icons can be changed directly in any HTML file by changing the fa-* class.
+
+2. ONLINE HERO / MODULE IMAGES
+Main reusable image URLs are centralized in:
+assets/css/online-assets.css
+
+Edit these classes there:
+.online-property-image
+.online-tenant-image
+.online-payment-image
+.online-revenue-image
+.online-budget-image
+.online-admin-image
+.login-cover
+.hero
+
+3. PROPERTY CARD IMAGES
+The 4 dashboard property images are direct <img> URLs in each module/dashboard.html.
+They use images.unsplash.com links and loading="lazy".
+
+4. IMPORTANT
+This version intentionally uses online assets. Internet access is required for remote images and Font Awesome icons to load.
+The app HTML, forms, tables, frames, includes, JS and translations are still local.

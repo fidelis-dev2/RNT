@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+<title>RNT | Owner / Admin Login</title><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" referrerpolicy="no-referrer"><link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/online-assets.css"></head>
+<body>
+<main class="login-page">
+  <section class="login-cover"><div><h1>RNT</h1><p data-i18n="Rental & Property Management System">Rental & Property Management System</p></div></section>
+  <section class="login-card-wrap">
+    <div style="position:absolute;right:24px;top:24px" class="language-switch">
+      <button type="button" class="lang-btn" data-language-button="en" onclick="setLanguage('en')">ENG</button>
+      <button type="button" class="lang-btn" data-language-button="sw" onclick="setLanguage('sw')">SW</button>
+    </div>
+    <form class="login-card" id="loginForm"><div class="brand-badge"><i class="fa-solid fa-house"></i></div><h2>RNT</h2><small>Sign in to continue to your account</small>
+      <div class="field"><i class="fa-regular fa-user"></i><input id="username" value="admin" placeholder="Username or Phone" required></div>
+      <div class="field"><i class="fa-solid fa-lock"></i><input id="password" value="admin" type="password" placeholder="Password" required></div>
+      <div class="login-options"><label><input type="checkbox" checked> <span>Remember me</span></label><a href="#" onclick="openForgotPassword('owner');return false">Forgot password?</a></div>
+      <button class="btn-primary" style="width:100%" type="submit"><i class="fa-solid fa-right-to-bracket"></i> Sign In</button><div style="display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px"><a class="btn-outline" style="text-align:center;text-decoration:none" href="tenant_portal/login.html"><i class="fa-solid fa-key"></i> Tenant Login</a><a class="btn-outline" style="text-align:center;text-decoration:none" href="index.html"><i class="fa-solid fa-house"></i> Browse Houses</a></div>
+    </form>
+  </section>
+</main>
+<script src="assets/js/language.js"></script><script src="assets/js/app.js"></script>
+</body></html>
